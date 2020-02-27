@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1> The Ultimate Code Quiz </h1>
+    <h1> The Ultimate, Most Intensifying Code Quiz </h1>
     <div class = "container">
-        <div class = "question">
-            
+        <div class = "question-area">
+            Question        
+        </div>
+        <div class = "answers-area">
+            <button class = "answer-one"> Answer One </button>
+            <button class = "answer-two"> Answer Two </button>
+            <button class = "answer-three"> Answer Three </button>
+            <button class = "answer-four"> Answer Four </button>
         </div>
     </div>
-    <button class = "start-btn btn"> Start </button>
-    <button class = "next-btn btn"> Next Question </button>
+    <div class = "control-btns">
+        <button id = "start-btn"> Start </button>
+        <button id = "next-btn" class = "hide"> Next Question </button>
+    </div>
+    <script src = "script.js"></script>
 </body>
 </html>

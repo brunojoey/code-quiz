@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Avenir", Avenir, Helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+
+}
